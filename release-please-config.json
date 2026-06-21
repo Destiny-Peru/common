@@ -3,9 +3,9 @@
   "packages": {
     ".": {
       "release-type": "go",
-      "package-name": "github.com/Destiny-Peru/common",
       "changelog-path": "CHANGELOG.md",
-      "include-v-in-tag": true
+      "include-v-in-tag": true,
+      "include-component-in-tag": false
     }
   }
 }
