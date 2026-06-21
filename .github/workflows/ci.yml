@@ -10,9 +10,7 @@ permissions:
 
 jobs:
   test:
-    runs-on:
-      group: destiny-peru-ci-cd
-      labels: [self-hosted, Linux, X64]
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
